@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.marv1985.notesapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0422ef4c-b712-4003-a38e-237808a562c5"
+      }
+    },
+    "owner": "marv1985"
   }
 }
